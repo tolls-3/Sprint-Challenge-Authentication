@@ -41,11 +41,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 - [ ] What is the purpose of using _sessions_?
 
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
-
+bycrypt helps to hash passwords, and this hashed passwords are not reversible.
 - [ ] What does bcrypt do to slow down attackers?
 
 - [ ] What are the three parts of the JSON Web Token?
-
+Headers, Payload, Signature
 ## Minimum Viable Product
 
 Implement an User Authentication System. Hash user's passwords before saving them to the database. Use `JSON Web Tokens` or `Sessions and Cookies` to persist authentication across requests.
